@@ -17,15 +17,17 @@
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
         "resolve-url-loader": "^3.1.2",
-        "sass": "^1.32.11",
-        "sass-loader": "^12.1.0",
+        "sass": "^1.44.0",
+        "sass-loader": "^12.3.0",
         "vue": "^2.6.12",
         "vue-loader": "^15.9.7",
-        "vue-template-compiler": "^2.6.12"
+        "vue-template-compiler": "^2.6.12",
+        "webpack": "^5.64.4"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.15.4",
         "admin-lte": "^3.1.0",
-        "node-sass": "^7.0.0"
+        "node-sass": "^6.0.1",
+        "vue-router": "^3.5.3"
     }
 }
