@@ -138,9 +138,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             
             <router-link to="/profile" class="nav-link">
               <i class="nav-icon fas fa-user orange"></i>
-              <p>
-                  Profile
-              </p>
+              <p>Profile</p>
           </router-link>
           </li> 
           
