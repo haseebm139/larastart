@@ -11,8 +11,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <title>AdminLTE 3 | Starter</title>
 <!-- CSRF Token -->
 <meta name="csrf-token" content="{{ csrf_token() }}">
-  <link rel="stylesheet" href="css/app.css">
-  <link rel="stylesheet" href="sass/app.scss">
+  <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+  {{-- <link rel="stylesheet" href="{{ asset('sass/app.scss') }}"> --}}
 
 
 </head>
@@ -98,16 +98,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
                with font-awesome or any other icon font library -->
 
                {{-- Dashboard nav item --}}
-          <li class="nav-item ">
-            <router-link to="/dashboard" class="nav-link">
-              <i class="nav-icon fas fa-tachometer-alt blue"></i>
-              <p>
-              Dashboard
-
-              </p>
-          </router-link>
-          </li>
-
+               <li class="nav-item">
+                <router-link to="/dashboard" class="nav-link">
+                    <i class="nav-icon fas fa-tachometer-alt blue"></i>
+                    <p>
+                    Dashboard
+    
+                    </p>
+                </router-link>
+                </li>
           {{-- Managements nav item --}}
           <li class="nav-item menu-close">
             <a href="#" class="nav-link">
